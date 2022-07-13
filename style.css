@@ -3,7 +3,7 @@
 body{ 
     font-family: Source Sans Pro;
     body-background: #eee;
-   
+    padding:1% ;
 }
 nav {
     background-color: white;
@@ -25,34 +25,42 @@ li {
    
 }
 a {
-    color:#777;
+    color: rgb(163, 161, 161);
     text-decoration: none;
 }
 h1 {
     font-family: Abril Fatface;
     text-align: center;
+    font-size: 60px;
 }
 main {
         border-bottom: 1px solid #eee;
         color:#777;
-        padding: 5%
+        padding: 1%
     }
-    img {
-        padding: ; 3%
+main > img {
+        width: 100%;
     }
 h2{
     font-family: Roboto Slab;
     color: black;
-}
-
+    font-size: 40px;
+} 
 .more-articles {
-    display: inline-block;
+    display: flex;
 }
 section {
-    padding: 1.5% ;
+    padding: 10px;
+}
+section > img {
+    width: 100%;
+}
+p {
+    color:#777
 }
 .date {
     color:#777;
+
 }
 h4 {
     font-family: Roboto Slab;
@@ -60,4 +68,5 @@ h4 {
 h5 {
     color: red;
     font-family: Abril Fatface
+    font-size: 40px
 }
